@@ -1,8 +1,9 @@
 const kleur_aanpassen = function() {
 let title = "title";
-let element = document.getElementsById(title);
+let element = document.getElementById(title);
 
 element.style.color = "red";
-element.style.fontWeight = "normal";
+element.innerText = "Inhoud aangepast!";
 }
+
 kleur_aanpassen();
