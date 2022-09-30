@@ -1,7 +1,7 @@
 let txt = document.getElementById("txt");
 
 let budget = 100;
-let product = 60;
+let product = prompt("Hoe veel kost het product");
 
 if (budget >= product) {
     txt.innerText = "U heeft genoeg geld!";
